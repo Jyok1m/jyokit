@@ -16,7 +16,7 @@ const TEMPLATE_MAP = {
 	express: "express-starter",
 };
 
-program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS app boilerplates").version("1.0.2");
+program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS app boilerplates").version("1.0.3");
 
 /* --------------------------- backend:init --------------------------- */
 

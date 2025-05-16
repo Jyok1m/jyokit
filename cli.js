@@ -18,12 +18,12 @@ const TEMPLATE_MAP = {
 
 program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS app boilerplates").version("1.0.0");
 
-/* --------------------------- app:init --------------------------- */
+/* --------------------------- backend:init --------------------------- */
 
 program
-	.command("app:init <template>")
-	.description("Scaffold Full-Stack app boilerplate (express)")
-	.requiredOption("-n, --name <name>", 'App name (e.g. "my-app-backend", "my-app-frontend")')
+	.command("backend:init <template>")
+	.description("Scaffold backend structure (express)")
+	.requiredOption("-n, --name <name>", 'Backend name (e.g. "my-app-backend")')
 	.option("-o, --output <dir>", "Output directory", ".")
 	.action(async (template, { name, output }) => {
 		if (!TEMPLATE_MAP[template]) {
@@ -40,9 +40,9 @@ program
 		const dest = path.resolve(output, `${name}`);
 		try {
 			await fs.copy(src, dest);
-			console.log(`✅ ${template.charAt(0).toUpperCase() + template.slice(1)} app boilerplate created at ${dest}`);
+			console.log(`✅ ${template.charAt(0).toUpperCase() + template.slice(1)} backend structure created at ${dest}`);
 		} catch (err) {
-			console.error("❌ Error creating app boilerplate:", err);
+			console.error("❌ Error creating backend structure:", err);
 			process.exit(1);
 		}
 	});

@@ -21,8 +21,7 @@ program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS ap
 /* --------------------------- backend:init --------------------------- */
 
 program
-	.command("backend:init")
-	.requiredOption("-t, --template <template>", "Template (e.g. express)")
+	.command("backend:init <template>")
 	.description("Scaffold backend structure")
 	.requiredOption("-n, --name <name>", 'Backend name (e.g. "my-app-backend")')
 	.option("-o, --output <dir>", "Output directory", ".")

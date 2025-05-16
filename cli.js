@@ -17,7 +17,7 @@ const TEMPLATE_MAP = {
 	"next-js": "nextjs-starter",
 };
 
-program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS app boilerplates").version("1.1.0");
+program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS app boilerplates").version("1.1.1");
 
 /* ------------------------- frontend:init ------------------------ */
 

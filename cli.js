@@ -22,7 +22,7 @@ program.name("jyokit").description("JyoKit — CLI for DevOps & Full-Stack JS ap
 /* ------------------------- frontend:init ------------------------ */
 
 program
-	.command("frontent:init <template>")
+	.command("frontend:init <template>")
 	.description("Scaffold frontend structure")
 	.requiredOption("-n, --name <name>", 'Frontend name (e.g. "my-app-frontend")')
 	.option("-o, --output <dir>", "Output directory", ".")

@@ -1,6 +1,6 @@
 {
 	"name": "jyokit",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "JyoKit — Your all-in-one CLI for DevOps scaffolds & Full-Stack JS app generators",
 	"bin": {
 		"jyokit": "./cli.js"

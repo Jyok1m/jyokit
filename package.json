@@ -1,0 +1,12 @@
+{
+	"name": "jyokit",
+	"version": "1.0.0",
+	"description": "JyoKit — Your all-in-one CLI for DevOps scaffolds & Full-Stack JS app generators",
+	"bin": {
+		"jyokit": "./cli.js"
+	},
+	"repository": "https://github.com/jyok1m/jyokit.git",
+	"author": "Joachim Jasmin <joachim.jasmin-dev@proton.me>",
+	"license": "MIT",
+	"private": false
+}

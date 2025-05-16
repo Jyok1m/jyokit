@@ -8,5 +8,9 @@
 	"repository": "https://github.com/jyok1m/jyokit.git",
 	"author": "Joachim Jasmin <joachim.jasmin-dev@proton.me>",
 	"license": "MIT",
-	"private": false
+	"private": false,
+	"dependencies": {
+		"commander": "^13.1.0",
+		"fs-extra": "^11.3.0"
+	}
 }
